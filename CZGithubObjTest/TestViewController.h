@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestViewController.h
 //  CZGithubObjTest
 //
 //  Created by Cui on 16/3/30.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TestViewController.h"
 
-@interface ViewController : UIViewController
-
-
+@interface TestViewController : UIViewController
 
 @end
-

@@ -21,6 +21,9 @@
 
 - (void)ViewStruct {
     NSLog(@"test");
+    self.view.backgroundColor = [UIColor blackColor];
+    TestViewController *test = [[TestViewController alloc] init];
+    [self.navigationController pushViewController: test animated: true];
 }
 
 @end

@@ -14,6 +14,9 @@
 		A062FA2F1CAB99CB0005F38D /* CZGithubObjTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A062FA2D1CAB99CB0005F38D /* CZGithubObjTest.xcdatamodeld */; };
 		A062FA311CAB99CB0005F38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A062FA301CAB99CB0005F38D /* Assets.xcassets */; };
 		A062FA341CAB99CB0005F38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A062FA321CAB99CB0005F38D /* LaunchScreen.storyboard */; };
+		A062FA3E1CAB9B930005F38D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A062FA3C1CAB9B930005F38D /* TestViewController.m */; };
+		A062FA3F1CAB9B930005F38D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A062FA3D1CAB9B930005F38D /* TestViewController.xib */; };
+		A062FA421CAB9D2F0005F38D /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A062FA411CAB9D2F0005F38D /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,11 @@
 		A062FA301CAB99CB0005F38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A062FA331CAB99CB0005F38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A062FA351CAB99CB0005F38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A062FA3B1CAB9B930005F38D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A062FA3C1CAB9B930005F38D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A062FA3D1CAB9B930005F38D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		A062FA401CAB9D2F0005F38D /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		A062FA411CAB9D2F0005F38D /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,11 @@
 				A062FA251CAB99CB0005F38D /* AppDelegate.m */,
 				A062FA271CAB99CB0005F38D /* ViewController.h */,
 				A062FA281CAB99CB0005F38D /* ViewController.m */,
+				A062FA3B1CAB9B930005F38D /* TestViewController.h */,
+				A062FA3C1CAB9B930005F38D /* TestViewController.m */,
+				A062FA401CAB9D2F0005F38D /* TestView.h */,
+				A062FA411CAB9D2F0005F38D /* TestView.m */,
+				A062FA3D1CAB9B930005F38D /* TestViewController.xib */,
 				A062FA2A1CAB99CB0005F38D /* Main.storyboard */,
 				A062FA301CAB99CB0005F38D /* Assets.xcassets */,
 				A062FA321CAB99CB0005F38D /* LaunchScreen.storyboard */,
@@ -141,6 +154,7 @@
 			files = (
 				A062FA341CAB99CB0005F38D /* LaunchScreen.storyboard in Resources */,
 				A062FA311CAB99CB0005F38D /* Assets.xcassets in Resources */,
+				A062FA3F1CAB9B930005F38D /* TestViewController.xib in Resources */,
 				A062FA2C1CAB99CB0005F38D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +170,8 @@
 				A062FA261CAB99CB0005F38D /* AppDelegate.m in Sources */,
 				A062FA231CAB99CB0005F38D /* main.m in Sources */,
 				A062FA2F1CAB99CB0005F38D /* CZGithubObjTest.xcdatamodeld in Sources */,
+				A062FA421CAB9D2F0005F38D /* TestView.m in Sources */,
+				A062FA3E1CAB9B930005F38D /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
