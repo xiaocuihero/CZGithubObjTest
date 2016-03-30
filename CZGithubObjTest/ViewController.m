@@ -20,7 +20,7 @@
 }
 
 - (void)ViewStruct {
-    
+    NSLog(@"test");
 }
 
 @end
