@@ -14,7 +14,8 @@
 }
 
 - (void)setTestStr: (NSString*)str {
-    NSLog(@"\(str)");
+//    NSLog(@"\(str)");
+    NSLog(@"@%", str);
     testStr = str;
 }
 
