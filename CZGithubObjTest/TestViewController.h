@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TestView.h"
 @interface TestViewController : UIViewController
 
 @end

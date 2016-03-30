@@ -20,6 +20,10 @@
 }
 
 - (void)drawRect:(CGRect)rect {
+    testBtn = [UIButton new];
+    testBtn.frame = CGRectMake(50, 50, 100, 40);
+    testBtn.backgroundColor = [UIColor blackColor];
+    [self addSubview:testBtn];
     testStr = @"123";
 }
 

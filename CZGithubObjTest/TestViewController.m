@@ -9,6 +9,7 @@
 #import "TestViewController.h"
 
 @interface TestViewController ()
+@property (weak, nonatomic) IBOutlet TestView *testview;
 
 @end
 
