@@ -4,7 +4,7 @@
 //
 //  Created by Cui on 16/3/30.
 //  Copyright © 2016年 Cui. All rights reserved.
-//  master modify
+//  branch modify
 
 #import "AppDelegate.h"
 
